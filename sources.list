@@ -86,6 +86,18 @@ deb [arch=amd64 allow-insecure=yes] http://insertyourhostnamehere:1804/mirror/do
 #### Xorg Edgers PPA - https://launchpad.net/~xorg-edgers
 deb [arch=amd64 allow-insecure=yes] http://insertyourhostnamehere:1804/mirror/ppa.launchpad.net/xorg-edgers/ppa/ubuntu bionic main
 
+#### Sublime 
+deb [arch=amd64 allow-insecure=yes] http://insertyourhostnamehere:1804/mirror/download.sublimetext.com/ apt/stable/
+
+#### Docker
+deb [arch=amd64 allow-insecure=yes] http://insertyourhostnamehere:1804/mirror/download.docker.com/linux/ubuntu bionic stable
+
+#### Inetsim
+deb [arch=amd64 allow-insecure=yes] http://insertyourhostnamehere:1804/mirror/www.inetsim.org/debian/ binary/
+
+#### Kali
+deb [arch=amd64 allow-insecure=yes] http://insertyourhostnamehere:1804/mirror/http.kali.org/kali kali-rolling main non-free contrib
+
 
 ####### 3rd Party Source Repos
 
@@ -116,15 +128,5 @@ deb-src [allow-insecure=yes] http://insertyourhostnamehere:1804/mirror/deb.torpr
 #### Xorg Edgers PPA (Source) - https://launchpad.net/~xorg-edgers
 deb-src [allow-insecure=yes] http://insertyourhostnamehere:1804/mirror/ppa.launchpad.net/xorg-edgers/ppa/ubuntu bionic main
 
-#### Sublime 
-deb [arch=amd64 allow-insecure=yes] http://insertyourhostnamehere:1804/mirror/download.sublimetext.com/ apt/stable/
-
-#### Docker
-deb [arch=amd64 allow-insecure=yes] http://insertyourhostnamehere:1804/mirror/download.docker.com/linux/ubuntu bionic stable
-
-#### Inetsim
-deb [arch=amd64 allow-insecure=yes] http://insertyourhostnamehere:1804/mirror/www.inetsim.org/debian/ binary/
-
 #### Kali
-deb [arch=amd64 allow-insecure=yes] http://insertyourhostnamehere:1804/mirror/http.kali.org/kali kali-rolling main non-free contrib
 deb-src [allow-insecure=yes] http://insertyourhostnamehere:1804/mirror/http.kali.org/kali kali-rolling main non-free contrib
