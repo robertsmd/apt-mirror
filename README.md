@@ -6,10 +6,11 @@
 
 ### Install dependencies
 
-```sudo apt install gnupg apt-key apt-mirror```
+```sudo apt install gnupg apt-key apt-mirror wget curl```
 
+### Setup mirror settings
 
-### Copy `mirror.list` to `/etc/apt/mirror.list`
+Copy `mirror.list` to `/etc/apt/mirror.list`
 
 ```cp mirror.list /etc/apt/mirror.list```
 
